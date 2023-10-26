@@ -1,9 +1,10 @@
 import pygame
 
 
-class Game:
+class GameManager:
     def __init__(self):
         """Initializes the game object."""
+        pygame.init()
         pass
 
     def run(self):
@@ -19,5 +20,5 @@ class Game:
         pass
 
     def load_sound(self):
-        """Lload the sound that's going to be visualized."""
+        """Load the sound that's going to be visualized."""
         pass
